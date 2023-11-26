@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:39px;
+}
+.card-col{
+    width:25%;
+    box-shadow: 0 0 4px gray;
+   
+}
+.card{
+    height: 100%;
+}
+.card-image img{
+    width: 100%;
+}
+.card-con{
+    margin-left: 21px;
+    text-align:center;
+}
+.card-con h3{
+    margin: 12px 3px 12px;
+}
+
+.card-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 19px;
+}
+.card-btn .icon1{
+    font-size:26px;
+}
+.card-btn .icon2{
+    font-size:26px;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
